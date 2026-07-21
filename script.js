@@ -35,10 +35,10 @@
 
 // console.log(ageJonas , ageSarah)
 
-const firstName = 'Josh';
-const job = 'full stack developer';
-const birthYear = 2001;
-const year = 2026;
+// const firstName = 'Josh';
+// const job = 'full stack developer';
+// const birthYear = 2001;
+// const year = 2026;
 // console.log (firstName + ' ' + lastName);
 
 // let x = 10+5;
@@ -50,27 +50,47 @@ const year = 2026;
 
 // console.log(ageJonas > ageSarah);
 
-const massMark = 78;
-const heightMark = 1.69;
+// const massMark = 78;
+// const heightMark = 1.69;
 
-const massJohn = 92;
-const heightJohn = 1.92;
+// const massJohn = 92;
+// const heightJohn = 1.92;
 
-const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / heightJohn ** 2;
-const markHigherBMI = BMIMark > BMIJohn;
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / heightJohn ** 2;
+// const markHigherBMI = BMIMark > BMIJohn;
 
-console.log(BMIMark, BMIJohn , markHigherBMI);
+// console.log(BMIMark, BMIJohn , markHigherBMI);
 
-const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`
-console.log(jonasNew)
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`
+// console.log(jonasNew)
 
-const age = 15;
+// const age = 15;
 
 
-if(age >= 18){
-    console.log('Joshua can start driving);')
+// if(age >= 18){
+//     console.log('Joshua can start driving);')
+// }else{
+//     const yearsLeft = 18 -age;
+//     console.log(`Joshua is too young. Wait another ${yearsLeft} years :)`);
+// }
+const birthYear = 2001;
+let century;
+
+if (birthYear <= 2000){
+     century = 20;
 }else{
-    const yearsLeft = 18 -age;
-    console.log(`Joshua is too young. Wait another ${yearsLeft} years :)`);
+     century = 21;
 }
+console.log(century);
+
+const inputYear =2001
+console.log(Number(inputYear)+ 18);
+
+console.log('i am ' + 23 + ' years old');
+console.log( '23' - '10' - 3);
+console.log('23'/'2');
+
+let n = '1' + 1
+n = n - 1;
+console.log(n)
