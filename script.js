@@ -74,23 +74,86 @@
 //     const yearsLeft = 18 -age;
 //     console.log(`Joshua is too young. Wait another ${yearsLeft} years :)`);
 // }
-const birthYear = 2001;
-let century;
+// const birthYear = 2001;
+// let century;
 
-if (birthYear <= 2000){
-     century = 20;
+// if (birthYear <= 2000){
+//      century = 20;
+// }else{
+//      century = 21;
+// }
+// console.log(century);
+
+// const inputYear =2001
+// console.log(Number(inputYear)+ 18);
+
+// console.log('i am ' + 23 + ' years old');
+// console.log( '23' - '10' - 3);
+// console.log('23'/'2');
+
+// let n = '1' + 1
+// n = n - 1;
+// console.log(n)
+
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("Josh"));
+// console.log(Boolean({}));
+// console.log(Boolean(0));
+
+// // const money = 0;
+// if (money){
+//      console.log('dont spend it all');
+// }else{
+//      console.log('you should get a job');
+// }
+// let height = 0;
+// if (height){
+//      console.log('yay! height is defined')
+// }else{
+//      console.log('height is not defined')
+// }
+// const age = 18;
+// if(age === 18) console.log(' you just became an adult');
+
+// if(age == 18) console.log(' you just became an adult');
+
+// const favourite = Number(prompt('what is your name?'));
+// console.log(favourite);
+// console.log (typeof favourite);
+// if (favourite ==23){
+//      console.log(' 23 is an amazing number');
+// }
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision)
+console.log(hasDriversLicense || hasGoodVision)
+console.log(!(hasDriversLicense))
+
+
+if(hasDriversLicense || hasGoodVision){
+     console.log('sarah is able to drive')
 }else{
-     century = 21;
+     console.log('someone else should drive...');
 }
-console.log(century);
 
-const inputYear =2001
-console.log(Number(inputYear)+ 18);
+const isTired = false;
+console.log(hasDriversLicense && hasGoodVision && isTired);
 
-console.log('i am ' + 23 + ' years old');
-console.log( '23' - '10' - 3);
-console.log('23'/'2');
+if(hasDriversLicense && hasGoodVision && !isTired){
+     console.log('sarah is able to drive')
+}else{
+     console.log('someone else should drive...');
+}
 
-let n = '1' + 1
-n = n - 1;
-console.log(n)
+const day = 'monday';
+
+switch(day){
+     case 'monday':
+          console.log('plan course sturcture');
+          console/log('Go to coding meetup');
+          break;
+          case 'tuesday':
+               conso
+}
