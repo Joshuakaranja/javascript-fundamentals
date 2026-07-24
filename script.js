@@ -124,36 +124,81 @@
 // if (favourite ==23){
 //      console.log(' 23 is an amazing number');
 // }
-const hasDriversLicense = true;
-const hasGoodVision = true;
+// const hasDriversLicense = true;
+// const hasGoodVision = true;
 
-console.log(hasDriversLicense && hasGoodVision)
-console.log(hasDriversLicense || hasGoodVision)
-console.log(!(hasDriversLicense))
+// console.log(hasDriversLicense && hasGoodVision)
+// console.log(hasDriversLicense || hasGoodVision)
+// console.log(!(hasDriversLicense))
 
 
-if(hasDriversLicense || hasGoodVision){
-     console.log('sarah is able to drive')
+// if(hasDriversLicense || hasGoodVision){
+//      console.log('sarah is able to drive')
+// }else{
+//      console.log('someone else should drive...');
+// }
+
+// const isTired = false;
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if(hasDriversLicense && hasGoodVision && !isTired){
+//      console.log('sarah is able to drive')
+// }else{
+//      console.log('someone else should drive...');
+// }
+
+// const day = 'friday';
+
+// switch(day){
+//      case 'monday':
+//           console.log('plan course structure');
+//           console.log('go to coding meetup');
+//           break;
+//      case 'tuesday':
+//           console.log('prepare theory videos');
+//           break;
+//      case 'wednesday':
+//      case 'thursday':
+//           console.log('write code examples');
+//           break;
+//      case 'friday':
+//           console.log('record videos');
+//           break;
+//      case 'saturday':
+//      case 'sunday':
+//           console.log('enjoy the weekend :D');
+//           break;
+//      default:
+//           console.log('not a valid day!');
+          
+          
+// }
+
+// const month ='july';
+// if (month === 'january'  || month === 'february' ||month=== 'december'){
+//      console.log ('its breeding season');
+
+// }else if ( month === 'march' || month === 'april' || month === 'may'){
+//      console.log('premier league comes to an end ')
+// }else if (month === 'june' ||month === 'july' || month === 'august'){
+//      console.log('worldcup season')
+
+// }else if (month === 'september' || month === 'october' || month === 'november'){
+//      console.log('premier league starts again')
+// }else{
+//      console.log('not a valid month')
+// }
+
+const age = 23;
+age >= 18 ? console.log('can drink wine') : console.log('can drink water only');
+
+const drink = age >= 18 ? 'wine ': 'water';
+console.log(drink)
+
+let drink2
+if(age >= 18){
+     drink2='wine'
 }else{
-     console.log('someone else should drive...');
+     drink2='water'
 }
-
-const isTired = false;
-console.log(hasDriversLicense && hasGoodVision && isTired);
-
-if(hasDriversLicense && hasGoodVision && !isTired){
-     console.log('sarah is able to drive')
-}else{
-     console.log('someone else should drive...');
-}
-
-const day = 'monday';
-
-switch(day){
-     case 'monday':
-          console.log('plan course sturcture');
-          console/log('Go to coding meetup');
-          break;
-          case 'tuesday':
-               conso
-}
+console.log(drink2)
